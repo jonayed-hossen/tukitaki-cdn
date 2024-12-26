@@ -1,0 +1,62 @@
+/* Code By TukiTaki Store BD */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.table th {
+    background-color: #ffbb00;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table td {
+    text-align: center;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* <h2>Specifications of YEARLY (1 Year, 7 Device, 2 Stream) CHORKI Subscription</h2>
+<table class="table">
+    <tr>
+        <th>Attribute</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <td>Brand</td>
+        <td>Chorki</td>
+    </tr>
+    <tr>
+        <td>SKU</td>
+        <td>222676130_BD-1169016493</td>
+    </tr>
+    <tr>
+        <td>Delivery email or SMS</td>
+        <td>Email</td>
+    </tr>
+    <tr>
+        <td>What’s in the box</td>
+        <td>YEARLY (1 Year, 7 Device, 2 Stream) <br> CHORKI Subscription</td>
+    </tr>
+</table> */
