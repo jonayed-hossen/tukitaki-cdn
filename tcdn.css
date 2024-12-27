@@ -1,0 +1,183 @@
+/* Code By TukiTaki Store BD */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.table th {
+    background-color: orange;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table td {
+    text-align: center;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    font-weight: bold;
+}
+
+.custom-icon {
+    background: url('./img/refund.png') no-repeat center left;
+    /* [ আইকনের URL দিন ] */
+    background-size: 1.25rem 1.25rem;
+    background-position: 0.7rem center;
+    gap: 0.625rem;
+}
+
+.btn {
+    padding: 0.625rem 1.25rem 0.625rem 3rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.color-orangered {
+    color: orangered;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-orange-hover:hover {
+    background-color: rgb(223, 150, 15);
+}
+
+.bg-orangered {
+    background-color: orangered;
+}
+
+.bg-orangered-hover:hover {
+    background-color: rgb(218, 70, 16);
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-green-hover:hover {
+    background-color: rgb(19, 204, 19);
+}
+
+.bg-yellow {
+    background-color: rgb(255, 255, 0);
+}
+
+.bg-yellow-hover:hover {
+    background-color: rgba(255, 255, 0, 0.863);
+}
+
+.bg-blue {
+    background-color: #007BFF;
+}
+
+.bg-blue-hover:hover {
+    background-color: #0056b3;
+}
+
+.td-none {
+    text-decoration: none;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.t-justify {
+    text-align: justify;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.t-left {
+    text-align: left;
+}
+
+.t-end {
+    text-align: end;
+}
+
+.t-start {
+    text-align: start;
+}
+
+.t-initial {
+    text-align: initial;
+}
+
+.t-unset {
+    text-align: unset;
+}
+
+.alert-note {
+    margin: 1.25rem 0rem;
+    padding: 0.938rem;
+    border-radius: 0.313rem;
+    font-family: Arial, sans-serif;
+}
+
+.alert-info {
+    background-color: #e7f3fe;
+    border: 0.063rem solid #b3d8ff;
+    color: #023650;
+}
+
+.alert-warning {
+    background-color: #fdf2f2;
+    border: 0.063rem solid #f5c6cb;
+    color: #6d050d;
+}
